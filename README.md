@@ -2,8 +2,6 @@
 
 PSR-7 Middleware that determines the client remote port and stores it as an `ServerRequest` attribute called `remotePort`.
 
-[![Build status][Master image]][Master]
-
 
 ## Installation
 
@@ -22,6 +20,3 @@ $app->get('/', function ($request, $response, $args) {
     return $response;
 });
 ```
-
-[Master]: https://travis-ci.org/akrabat/rka-content-type-renderer
-[Master image]: https://secure.travis-ci.org/akrabat/rka-content-type-renderer.svg?branch=master
